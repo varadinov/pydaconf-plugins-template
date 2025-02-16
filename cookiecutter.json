@@ -1,0 +1,16 @@
+{
+  "plugin_name": "Example",
+  "plugin_prefix": "EXAMPLE",
+  "short_description": "Pydaconf Plugin for {{ cookiecutter.plugin_name }}",
+  "author": "Borislav Varadinov",
+  "author_email": "borislav.varadinov@outlook.com",
+  "github_username": "varadinov",
+  "project_name": "Pydaconf Plugins {{ cookiecutter.plugin_name }}",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+  "project_package": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "version": "0.1.0",
+
+  "_copy_without_render": [
+    ".github/workflows/*"
+  ]
+}
