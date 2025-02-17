@@ -19,8 +19,3 @@ repos:
         language: system
         pass_filenames: false
 
-      - id: mkdocs-build
-        name: Build MkDocs
-        entry: mkdocs build
-        language: system
-        pass_filenames: false
